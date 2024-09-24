@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2024-08-21" view-index="0" gantt-divider-location="308" resource-divider-location="300" version="3.2.3247" locale="ja_JP">
+    <description/>
+    <view zooming-state="default:3" id="gantt-chart">
+        <field id="tpd3" name="名前" width="175" order="0"/>
+        <field id="tpd4" name="開始日" width="65" order="1"/>
+        <field id="tpd5" name="終了日" width="67" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="color.recent">
+            <![CDATA[#0033ff #cc00ff #33cc00 #cccccc #ff6666 #ff99ff #99ff99 #99ffff #ffff99]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="名前" width="210" order="0"/>
+        <field id="1" name="デフォルトの役割" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="0" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="プロトタイプ" color="#ffff99" meeting="false" start="2024-09-01" duration="33" complete="0" thirdDate="2024-09-23" thirdDate-constraint="0" expand="false"/>
+        <task id="5" name="プロトタイプ予定" color="#ffff99" meeting="false" start="2024-09-24" duration="11" complete="0" thirdDate="2024-09-24" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[一応変わるだろうけど
+プロトの予定
+プロトでアンリアルの動かし方を覚えたいでｓ
+
+UI関係の処理わかりにくくて頭抱えてます]]>
+            </notes>
+            <task id="6" name="UI（回転）" color="#33cc00" meeting="false" start="2024-09-24" duration="1" complete="0" thirdDate="2024-09-23" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[決定ボタンの回転がうまくいかないのでそれをやります
+アンリアルアンチになりそうです
+]]>
+                </notes>
+            </task>
+            <task id="11" name="UIを配置します" color="#33cc00" meeting="false" start="2024-09-25" duration="3" complete="0" thirdDate="2024-09-17" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[とりあえずゲームシーンだけ
+UIを仮で置きます、たぶん。]]>
+                </notes>
+            </task>
+            <task id="10" name="サウンドの処理について" color="#cc00ff" meeting="false" start="2024-09-28" duration="4" complete="0" thirdDate="2024-09-17" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[サウンドってどうやって鳴らすんですか？？？？？？
+切実に知りたいです]]>
+                </notes>
+            </task>
+            <task id="9" name="エフェクト練習" color="#0033ff" meeting="false" start="2024-10-02" duration="3" complete="0" thirdDate="2024-09-23" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[ウェンティのエフェクトを練習で作ります多分。]]>
+                </notes>
+            </task>
+        </task>
+        <task id="1" name="アルファ" color="#99ff99" meeting="false" start="2024-10-04" duration="19" complete="0" thirdDate="2024-08-29" thirdDate-constraint="0" expand="true"/>
+        <task id="12" name="アルファの予定" color="#99ff99" meeting="false" start="2024-10-04" duration="19" complete="0" thirdDate="2024-10-04" thirdDate-constraint="0" expand="true">
+            <task id="13" name="エフェクト関係 ※" color="#0033ff" meeting="false" start="2024-10-04" duration="15" complete="0" thirdDate="2024-10-01" thirdDate-constraint="0" expand="false">
+                <notes>
+                    <![CDATA[エフェクトでどれくらい時間がかかるのかがいまだわかっていないので
+ふわっとしか書いてません。
+
+エフェクト触って時間が分かり次第細かく書きます許してください]]>
+                </notes>
+                <task id="14" name="中ボスその1" color="#0033ff" meeting="false" start="2024-10-04" duration="4" complete="0" thirdDate="2024-10-04" thirdDate-constraint="0" expand="true">
+                    <notes>
+                        <![CDATA[通常攻撃 弱
+通常攻撃 強
+強攻撃
+
+氷と水モチーフだから寒色系でまとめる]]>
+                    </notes>
+                </task>
+                <task id="15" name="中ボスその2" color="#0033ff" meeting="false" start="2024-10-08" duration="5" complete="0" thirdDate="2024-10-04" thirdDate-constraint="0" expand="true">
+                    <notes>
+                        <![CDATA[通常攻撃 弱
+通常攻撃 強
+強攻撃
+
+土と雷モチーフだから黄色系でまとめる
+エージェントくんです]]>
+                    </notes>
+                </task>
+                <task id="16" name="ボス" color="#0033ff" meeting="false" start="2024-10-13" duration="6" complete="0" thirdDate="2024-10-04" thirdDate-constraint="0" expand="true">
+                    <notes>
+                        <![CDATA[通常攻撃 弱
+通常攻撃 強
+強攻撃
+（強攻撃がもういっこある 仲間の魔法陣はある）
+
+炎系モチーフだから暖色系でまとめる]]>
+                    </notes>
+                </task>
+            </task>
+            <task id="17" name="UIの配置 ※" color="#33cc00" meeting="false" start="2024-10-19" duration="4" complete="0" thirdDate="2024-10-19" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[置けてない分のUIを置きます
+演出は...ベータでやります、たぶん。
+
+アルファで配置が終わってたらこのタスクは別のタスクになる予定です]]>
+                </notes>
+            </task>
+        </task>
+        <task id="2" name="ベータ" color="#99ffff" meeting="false" start="2024-10-23" duration="28" complete="0" thirdDate="2024-09-04" thirdDate-constraint="0" expand="true"/>
+        <task id="18" name="ベータの予定" color="#99ffff" meeting="false" start="2024-10-23" duration="6" complete="0" thirdDate="2024-10-23" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[まだふわっとしかわからないせいで何も書けない
+とりあえずエフェクトの強化...とUIの演出の強化をするつもりです]]>
+            </notes>
+            <task id="19" name="UIの演出" color="#33cc00" meeting="false" start="2024-10-23" duration="6" complete="0" thirdDate="2024-10-23" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[ゲージをきらきらさせたり、とか？
+今のとこあんまり考えついてないけど]]>
+                </notes>
+            </task>
+        </task>
+        <task id="8" name="マスター" color="#cccccc" meeting="false" start="2024-11-20" duration="5" complete="0" thirdDate="2024-09-23" thirdDate-constraint="0" expand="true"/>
+        <task id="3" name="リファクタリング" color="#ff99ff" meeting="false" start="2024-11-25" duration="4" complete="0" thirdDate="2024-09-04" thirdDate-constraint="0" expand="true"/>
+        <task id="4" name="提出日" color="#ff6666" meeting="false" start="2024-11-29" duration="1" complete="0" thirdDate="2024-09-04" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
