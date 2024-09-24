@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2024-09-11" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.3.3309" locale="ja_JP">
+    <description/>
+    <view zooming-state="default:0" id="gantt-chart">
+        <field id="tpd3" name="名前" width="200" order="0"/>
+        <field id="tpd4" name="開始日" width="75" order="1"/>
+        <field id="tpd5" name="終了日" width="75" order="2"/>
+        <field id="tpd15" name="メモ" width="20" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <option id="color.recent"><![CDATA[#ff3300 #ff0000]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="名前" width="210" order="0"/>
+        <field id="1" name="デフォルトの役割" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="true"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="9ce065248a7e455aae4aa40f0a97cfc9" name="検知システム" meeting="false" start="2024-09-12" duration="4" complete="0" expand="true">
+            <task id="1" uid="20fc46b60e87421d81863c73c32d7a1e" name="視野角" color="#ff0000" meeting="false" start="2024-09-15" duration="1" complete="0" priority="2" expand="true"/>
+            <task id="2" uid="3894f7b47f4f4fb3901c2e2154a8de22" name="追跡" color="#ff0000" meeting="false" start="2024-09-12" duration="3" complete="0" priority="2" expand="true"/>
+        </task>
+        <task id="3" uid="97084375a8764994aef70ab4b66c5005" name="警戒度" meeting="false" start="2024-09-12" duration="1" complete="0" expand="false">
+            <task id="4" uid="3b3be185863e4af48f2473b90e8d62a7" name="警戒度上昇システム" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+            <task id="5" uid="acd097549f1a44a3b29114eb1f6c9dec" name="警戒度減少システム" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="6" uid="4a5dc32e235c439f8ba6b26419880279" name="アニメーションシステム" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+        <task id="7" uid="70218c25e9ac4a49a69cf64ee7699b2a" name="敵行動一覧" meeting="false" start="2024-09-12" duration="9" complete="0" expand="true">
+            <task id="8" uid="dc918cddbf894d49adb8072c210ab671" name="巡回" color="#ff0000" meeting="false" start="2024-09-16" duration="3" complete="0" priority="2" expand="true"/>
+            <task id="9" uid="185f1c68c87e42e5bbfc4f2572e29ae8" name="接敵" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+            <task id="10" uid="5df4d48b693c4d5fb687dd5a7c0069c0" name="警備" color="#ff3300" meeting="false" start="2024-09-19" duration="1" complete="0" priority="2" expand="true"/>
+            <task id="11" uid="9cec16609d15472ab41b06a2fa1cafa7" name="攻撃を受ける" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+            <task id="12" uid="666804423b164dde90d36a5192fc147f" name="死ぬ" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+            <task id="13" uid="eff437a9203e46c6bafb9dc4dfb3ed7c" name="通常攻撃" color="#ff0000" meeting="false" start="2024-09-20" duration="1" complete="0" priority="2" expand="true"/>
+            <task id="15" uid="d7f442aa626e45c2b160def980e11e3f" name="通常攻撃「強 」" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+            <task id="14" uid="6d53789df144493eb786922ff07a68d0" name="強攻撃" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+            <task id="16" uid="21d1c611ba9443bab6dd9c30c326b37c" name="強攻撃　2" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+            <task id="17" uid="c0f27ba4ea504aeaadf800f8a01712e0" name="仲間を呼ぶ" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="19" uid="910882972086442bafb95a796d351623" name="ステータス" meeting="false" start="2024-09-20" duration="1" complete="0" expand="true">
+            <task id="20" uid="80fcc12f24954d24a57b24a427314412" name="HP" color="#ff3300" meeting="false" start="2024-09-20" duration="1" complete="0" priority="2" expand="true"/>
+            <task id="21" uid="bf15ca8aa6dc4a93a2a5ce2aac576c1e" name="攻撃力" color="#ff3300" meeting="false" start="2024-09-20" duration="1" complete="0" priority="2" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
