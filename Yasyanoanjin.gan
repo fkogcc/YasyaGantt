@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2024-10-01" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.2.3247" locale="ja_JP">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="名前" width="200" order="0"/>
+        <field id="tpd4" name="開始日" width="75" order="1"/>
+        <field id="tpd5" name="終了日" width="75" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="color.recent">
+            <![CDATA[#ff9999 #ffff99 #ff0000 #cc00cc #666666 #00cccc #cccc00 #33cc00 #00ff00 #ffff00]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="名前" width="210" order="0"/>
+        <field id="1" name="デフォルトの役割" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="0" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="プロトタイプ" color="#cccc00" meeting="false" start="2024-09-12" duration="22" complete="28" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true">
+            <task id="5" name="制作を進行する上での資料作り" color="#ffff99" meeting="false" start="2024-09-12" duration="22" complete="0" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[気づいたら随時追加するようにする]]>
+                </notes>
+            </task>
+            <task id="9" name="モーションの確認" color="#ff9999" meeting="false" start="2024-09-12" duration="2" complete="100" thirdDate="2024-09-12" thirdDate-constraint="0" priority="4" expand="true"/>
+            <task id="21" name="バーサーカーモードのシーンを追加" color="#ff9999" meeting="false" start="2024-09-12" duration="2" complete="100" thirdDate="2024-09-12" thirdDate-constraint="0" priority="4" expand="true"/>
+            <task id="6" name="プレイヤーの作成" color="#ff9999" meeting="false" start="2024-09-17" duration="8" complete="81" thirdDate="2024-09-12" thirdDate-constraint="0" priority="4" expand="true">
+                <task id="10" name="歩き" color="#ff9999" meeting="false" start="2024-09-17" duration="1" complete="100" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true"/>
+                <task id="11" name="走り" color="#ff9999" meeting="false" start="2024-09-17" duration="1" complete="0" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true"/>
+                <task id="16" name="攻撃" color="#ff9999" meeting="false" start="2024-09-18" duration="2" complete="100" thirdDate="2024-09-17" thirdDate-constraint="0" expand="true">
+                    <task id="14" name="攻撃(通常)" color="#ff9999" meeting="false" start="2024-09-18" duration="2" complete="100" thirdDate="2024-09-17" thirdDate-constraint="0" expand="true"/>
+                    <task id="17" name="攻撃コンボ" color="#ffff99" meeting="false" start="2024-09-18" duration="2" complete="100" thirdDate="2024-09-17" thirdDate-constraint="0" expand="true"/>
+                    <task id="22" name="攻撃モーションの変更" color="#ff9999" meeting="false" start="2024-09-18" duration="2" complete="100" thirdDate="2024-09-16" thirdDate-constraint="0" expand="true"/>
+                </task>
+                <task id="13" name="体力の実装" color="#ff9999" meeting="false" start="2024-09-20" duration="1" complete="100" thirdDate="2024-09-17" thirdDate-constraint="0" expand="true"/>
+                <task id="12" name="攻撃を受ける" color="#ff9999" meeting="false" start="2024-09-20" duration="1" complete="100" thirdDate="2024-09-17" thirdDate-constraint="0" expand="true"/>
+                <task id="18" name="バーサーカーモード" color="#ff9999" meeting="false" start="2024-09-24" duration="1" complete="0" thirdDate="2024-09-24" thirdDate-constraint="0" expand="true">
+                    <task id="19" name="ゲージの追加" color="#ff9999" meeting="false" start="2024-09-24" duration="1" complete="0" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true"/>
+                </task>
+            </task>
+            <task id="7" name="シーン遷移" color="#ff9999" meeting="false" start="2024-09-24" duration="1" complete="0" thirdDate="2024-09-12" thirdDate-constraint="0" priority="4" expand="true"/>
+            <task id="30" name="ルートモーション付きのモーションを追加" color="#ff9999" meeting="false" start="2024-09-30" duration="1" complete="0" thirdDate="2024-09-30" thirdDate-constraint="0" expand="true"/>
+            <task id="23" name="攻撃(隠密)" color="#ff9999" meeting="false" start="2024-10-01" duration="2" complete="0" thirdDate="2024-09-25" thirdDate-constraint="0" expand="true"/>
+            <task id="24" name="エフェクト(仮)を付ける" color="#ff9999" meeting="false" start="2024-10-01" duration="3" complete="0" thirdDate="2024-09-30" thirdDate-constraint="0" expand="true"/>
+            <task id="25" name="バーサーカーモードのシステム構築" color="#ff9999" meeting="false" start="2024-10-02" duration="2" complete="0" thirdDate="2024-09-30" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="1" name="アルファ" color="#33cc00" meeting="false" start="2024-10-04" duration="19" complete="0" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true">
+            <task id="27" name="エフェクトの変更" color="#ff9999" meeting="false" start="2024-10-04" duration="19" complete="0" thirdDate="2024-10-04" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[エフェクトが追加されるたびに随時変更]]>
+                </notes>
+            </task>
+            <task id="26" name="バーサーカーモードの攻撃力の変化を追加" color="#ff9999" meeting="false" start="2024-10-04" duration="1" complete="0" thirdDate="2024-10-04" thirdDate-constraint="0" expand="true"/>
+            <task id="29" name="バーサーカーモードのゲージを追加" color="#ff9999" meeting="false" start="2024-10-04" duration="1" complete="0" thirdDate="2024-10-10" thirdDate-constraint="0" expand="true"/>
+            <task id="31" name="カメラ演出の追加" color="#ff9999" meeting="false" start="2024-10-08" duration="15" complete="0" thirdDate="2024-10-08" thirdDate-constraint="0" expand="true"/>
+            <task id="28" name="ギミックの追加" color="#ff9999" meeting="false" start="2024-10-10" duration="2" complete="0" thirdDate="2024-10-03" thirdDate-constraint="0" expand="true"/>
+            <task id="32" name="バーサーカーモードの必殺技追加" color="#ff9999" meeting="false" start="2024-10-14" duration="5" complete="0" thirdDate="2024-10-14" thirdDate-constraint="0" expand="true"/>
+            <task id="33" name="ローリング" color="#ff9999" meeting="false" start="2024-10-14" duration="2" complete="0" thirdDate="2024-10-14" thirdDate-constraint="0" expand="true"/>
+            <task id="34" name="しゃがみ" color="#ff9999" meeting="false" start="2024-10-16" duration="2" complete="0" thirdDate="2024-10-14" thirdDate-constraint="0" expand="true"/>
+            <task id="35" name="プレイヤーの調整" color="#ffff99" meeting="false" start="2024-10-21" duration="2" complete="0" thirdDate="2024-10-21" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[実装できていない仕様がある場合この日中に実装を行う]]>
+                </notes>
+            </task>
+        </task>
+        <task id="3" name="ベータ" color="#00cccc" meeting="false" start="2024-10-23" duration="28" complete="0" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true">
+            <task id="36" name="プレイヤーの調整" color="#ff9999" meeting="false" start="2024-10-23" duration="28" complete="0" thirdDate="2024-10-23" thirdDate-constraint="0" expand="true"/>
+            <task id="37" name="エフェクトを随時変更" color="#ff9999" meeting="false" start="2024-10-23" duration="28" complete="0" thirdDate="2024-10-23" thirdDate-constraint="0" expand="true"/>
+            <task id="38" name="ギミックの調整" color="#ff9999" meeting="false" start="2024-10-23" duration="28" complete="0" thirdDate="2024-10-23" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="2" name="マスター" color="#666666" meeting="false" start="2024-11-20" duration="5" complete="0" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true">
+            <task id="39" name="バグを修正" color="#ff9999" meeting="false" start="2024-11-20" duration="5" complete="0" thirdDate="2024-11-20" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="4" name="リファクタ" color="#cc00cc" meeting="false" start="2024-11-25" duration="4" complete="0" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true"/>
+        <task id="8" name="GFF締め切り" color="#ff0000" meeting="false" start="2025-01-06" duration="1" complete="0" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
